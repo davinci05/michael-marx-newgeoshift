@@ -9,7 +9,7 @@ const MarketsPage: React.FC = () => {
         <section className="relative w-full">
           <div className="h-[450px] md:h-[550px] w-full bg-gray-900 relative overflow-hidden">
             <img
-              src="./assets/markets/placeholder-hero.jpg"
+              src="assets/markets/placeholder-hero.jpg"
               className="w-full h-full object-cover opacity-60"
               alt="Global Markets"
             />

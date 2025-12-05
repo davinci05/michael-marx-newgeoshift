@@ -15,7 +15,7 @@ const Home: React.FC = () => {
   {/* Background */}
   <div className="absolute inset-0">
     <img
-      src="./assets/cinematic/river.jpg" // "tokyo-street-1.jpg" // <-- use your actual image path
+      src="assets/cinematic/river.jpg" // "tokyo-street-1.jpg" // <-- use your actual image path
       alt="NEO GEO SHIFT Consulting"
       className="w-full h-full object-cover"
     />
@@ -75,7 +75,7 @@ const Home: React.FC = () => {
               <div className="group relative overflow-hidden rounded-2xl bg-gradient-to-br from-gray-900 to-gray-800 hover:from-gray-800 hover:to-gray-700 transition-all duration-300">
                 <div className="aspect-[16/10] overflow-hidden">
                   <img
-                    src="/assets/cinematic/city-4864747_1920.jpg"
+                    src="assets/cinematic/city-4864747_1920.jpg"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                     alt="Strategy Development"
                   />
@@ -112,13 +112,15 @@ const Home: React.FC = () => {
               <div className="group relative overflow-hidden rounded-2xl bg-gradient-to-br from-gray-900 to-gray-800 hover:from-gray-800 hover:to-gray-700 transition-all duration-300">
                 <div className="aspect-[16/10] overflow-hidden">
                   <img
-                    src="/assets/cinematic/buildings-673087_1920.jpg"
+                    src="assets/marx/sexy-marx.png"
+                    title="sexy marx"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                     alt="Global Network"
                   />
                 </div>
                 <div className="p-8 space-y-4">
                   <h3 className="text-2xl font-bold text-white">
+                    Das Kapital<br/>
                     Global Network &amp; Market Access
                   </h3>
                   <p className="text-gray-400 leading-relaxed">
@@ -166,7 +168,7 @@ const Home: React.FC = () => {
               <div className="group relative overflow-hidden rounded-2xl bg-gradient-to-br from-gray-900 to-gray-800 hover:from-gray-800 hover:to-gray-700 transition-all duration-300">
                 <div className="aspect-[16/10] overflow-hidden">
                   <img
-                    src="/assets/cinematic/port-2970859_1920.jpg"
+                    src="assets/cinematic/port-2970859_1920.jpg"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                     alt="Supply Chain Analysis"
                   />
@@ -199,7 +201,7 @@ const Home: React.FC = () => {
               <div className="group relative overflow-hidden rounded-2xl bg-gradient-to-br from-gray-900 to-gray-800 hover:from-gray-800 hover:to-gray-700 transition-all duration-300">
                 <div className="aspect-[16/10] overflow-hidden">
                   <img
-                    src="/assets/cinematic/river-7187070_1920.jpg"
+                    src="assets/cinematic/port-2970859_1920.jpg"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                     alt="Risk Assessment"
                   />
@@ -241,25 +243,25 @@ const Home: React.FC = () => {
           title: "Single-region dependency",
           desc: "60–80 % of annual spend still tied to one or two geographies",
           quote: "“Changing supply chains will disrupt production.”",
-          img: "/assets/cinematic/fragile.jpg",
+          img: "assets/cinematic/fragile.jpg",
         },
         {
           title: "Internal inertia",
           desc: "Legacy processes and “good-enough” suppliers block transformation.",
           quote: "“We’ve worked with these suppliers for years — they’re reliable.”",
-          img: "/assets/cinematic/fragile.jpg",
+          img: "assets/cinematic/fragile.jpg",
         },
         {
           title: "Talent bandwidth",
           desc: "Procurement teams are firefighting, not strategizing.",
           quote: "“We tried diversification once — it was too complicated.”",
-          img: "/assets/cinematic/fragile.jpg",
+          img: "assets/cinematic/fragile.jpg",
         },
         {
           title: "Leadership hesitation",
           desc: "Decision-makers underestimate the cost of inaction.",
           quote: "“We don’t have resources to explore new regions.”",
-          img: "/assets/cinematic/fragile.jpg",
+          img: "assets/cinematic/fragile.jpg",
         },
       ].map((item, index) => (
         <div
@@ -345,7 +347,7 @@ const Home: React.FC = () => {
         >
           <div className="absolute inset-0">
             <img
-              src="/assets/cinematic/ambarli-port-2409790_1920.jpg"
+              src="assets/cinematic/ambarli-port-2409790_1920.jpg"
               className="w-full h-full object-cover opacity-30"
               alt="Contact"
             />

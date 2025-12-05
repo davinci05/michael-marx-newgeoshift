@@ -10,7 +10,7 @@ const ContactPage: React.FC = () => {
         {/* Background image + gradient overlay */}
         <div className="absolute inset-0">
           <img
-            src="/assets/cinematic/ambarli-port-2409790_1920.jpg"
+            src="assets/cinematic/ambarli-port-2409790_1920.jpg"
             alt="Global Port"
             className="w-full h-full object-cover opacity-50"
           />
